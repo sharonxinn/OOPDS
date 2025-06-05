@@ -1,0 +1,1 @@
+1. static binding based on source code, dynamic binding based on object

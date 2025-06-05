@@ -1,0 +1,22 @@
+1. ADT stands for: Abstract Data Type.
+
+2. Which of the following must a programmer know about an ADT to use it?
+
+The correct answer is:
+
+a) What values it can hold
+
+b) What operations it can perform
+
+
+3. The two common programming methods in practice today are:
+
+Procedural and Object-Oriented.
+
+4. _____ programming is centered around functions, whereas ______ programming is centered around objects.
+
+Procedural programming is centered around functions, whereas Object-Oriented programming is centered around objects.
+
+5. An object is a software entity that combines both ____ and ____ in a single unit.
+
+Data and methods (or functions).
