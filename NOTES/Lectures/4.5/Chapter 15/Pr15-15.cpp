@@ -38,6 +38,9 @@ int main()
    Animal *myAnimal = new Dog;
    
    // Delete the dog object.
-   delete myAnimal;
+   delete myAnimal; //Animal destructor executing.
    return 0;
 }
+//Animal constructor executing.
+//Dog constructor executing.
+//Animal destructor executing.

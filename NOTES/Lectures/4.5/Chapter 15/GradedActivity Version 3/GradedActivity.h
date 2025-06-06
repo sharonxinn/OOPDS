@@ -24,6 +24,6 @@ public:
    double getScore() const
       { return score; }
    
-   virtual char getLetterGrade() const;
+   virtual char getLetterGrade() const; //virtual ovverride dynamic binding
 };
 #endif 

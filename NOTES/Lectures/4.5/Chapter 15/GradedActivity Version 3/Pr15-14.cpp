@@ -4,7 +4,7 @@
 using namespace std;
 
 // Function prototype
-void displayGrade(const GradedActivity *);
+void displayGrade(const GradedActivity *); //pointer
 
 int main()
 {
@@ -45,3 +45,8 @@ void displayGrade(const GradedActivity *activity)
    cout << "The activity's letter grade is "
         << activity->getLetterGrade() << endl;
 } 
+
+//88.0;B //call GradedActivity base class function
+//75.0;P //call PassFailExam derived class ovverride fucntion
+//67.0;D  //call GradedActivity base class function
+//76.0;P  //call PassFailExam derived class ovverride fucntion

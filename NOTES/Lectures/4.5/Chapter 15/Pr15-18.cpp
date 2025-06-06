@@ -19,8 +19,8 @@ public:
 int main()
 {
 	// Allocate instances of the Derived class.
-	Base *b = new Derived();
-	Derived *d = new Derived();
+	Base *b = new Derived();  //This is Derived::functionA
+	Derived *d = new Derived();  //This is Derived::functionA
 
 	// Call functionA with the two pointers.
 	b->functionA(99);
@@ -28,3 +28,5 @@ int main()
 
 	return 0;
 }
+//This is Derived::functionA
+//This is Derived::functionA

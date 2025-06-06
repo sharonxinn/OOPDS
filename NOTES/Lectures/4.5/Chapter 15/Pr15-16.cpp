@@ -9,7 +9,7 @@ public:
    Animal()
       { cout << "Animal constructor executing.\n"; }
    
-   // Destructor
+   // Destructor        //virtual destructor
    virtual ~Animal()
       { cout << "Animal destructor executing.\n"; }
 };
@@ -38,6 +38,11 @@ int main()
    Animal *myAnimal = new Dog;
    
    // Delete the dog object.
-   delete myAnimal;
+   delete myAnimal;  //since my animal destrcutoris virtual, will call dog destructor then animal destrcutor
    return 0;
 } 
+
+//Animal constructor executing.
+//Dog constructor executing.
+//Dog destrcutor executing.
+//Animal destructor executing.

@@ -16,8 +16,8 @@ int main()
    student.setGenEdHours(40); // Student has taken 40 Gen Ed hours
    
    // Display the number of remaining hours.
-   cout << "The student " << student.getName()
-        << " needs to take " << student.getRemainingHours()
+   cout << "The student " << student.getName() //Jennifer Haynes
+        << " needs to take " << student.getRemainingHours() //48
         << " more hours to graduate.\n";
         
    return 0;

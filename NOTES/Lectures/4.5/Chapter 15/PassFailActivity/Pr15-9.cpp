@@ -12,15 +12,15 @@ int main()
 
    // Get the number of questions on the exam.
    cout << "How many questions are on the exam? ";
-   cin >> questions;
+   cin >> questions; //20
 
    // Get the number of questions the student missed.
    cout << "How many questions did the student miss? ";
-   cin >> missed;
+   cin >> missed; //2
 
    // Get the minimum passing score.
    cout << "Enter the minimum passing score for this test: ";
-   cin >> minPassing;
+   cin >> minPassing; //50
 
    // Define a PassFailExam object.
    PassFailExam exam(questions, missed, minPassing);
@@ -28,12 +28,12 @@ int main()
    // Display the test results.
    cout << fixed << setprecision(1);
    cout << "\nEach question counts " 
-        << exam.getPointsEach() << " points.\n";
+        << exam.getPointsEach() << " points.\n"; //5
    cout << "The minimum passing score is "
-        << exam.getMinPassingScore() << endl;
+        << exam.getMinPassingScore() << endl; //50.0
    cout << "The student's exam score is " 
-        << exam.getScore() << endl;
+        << exam.getScore() << endl; //90.0
    cout << "The student's grade is " 
-        << exam.getLetterGrade() << endl;
+        << exam.getLetterGrade() << endl; //P because of PassFailExam overwrite
    return 0;
 }

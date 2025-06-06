@@ -17,7 +17,7 @@ int main()
 
    // Display the object's grade data. The letter grade
    // should be 'P'. What will be displayed?
-   displayGrade(test);
+   displayGrade(test); 
    return 0;
 }
 
@@ -30,7 +30,7 @@ void displayGrade(const GradedActivity &activity)
 {
    cout << setprecision(1) << fixed;
    cout << "The activity's numeric score is "
-        << activity.getScore() << endl;
+        << activity.getScore() << endl; //72
    cout << "The activity's letter grade is "
-        << activity.getLetterGrade() << endl;
+        << activity.getLetterGrade() << endl;//C because of GradedActivity base, call basee class
 } 

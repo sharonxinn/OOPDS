@@ -4,7 +4,7 @@
 using namespace std;
 
 // Function prototype
-void displayGrade(const GradedActivity *);
+void displayGrade(const GradedActivity *); //pinter
 
 int main()
 {
@@ -16,11 +16,11 @@ int main()
    // score is 70.
    PassFailExam test2(100, 25, 70.0);
 
-   // Display the grade data for both objects.
+   // Display the grade data for both objects. //return address of pointer
    cout << "Test 1:\n";
-   displayGrade(&test1);  // Address of the GradedActivity object
+   displayGrade(&test1);  // Address of the GradedActivity object  //88.0; B  //call GradedActivity base class function
    cout << "\nTest 2:\n";
-   displayGrade(&test2);  // Address of the PassFailExam object
+   displayGrade(&test2);  // Address of the PassFailExam object    //75.0 P     //call PassFailExam derived class ovverride fucntion
    return 0;
 }
 

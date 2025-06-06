@@ -28,3 +28,5 @@ int main()
 
 	return 0;
 }
+//This is Base::functionA
+//This is Derived::functionA

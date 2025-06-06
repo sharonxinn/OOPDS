@@ -30,7 +30,7 @@ void displayGrade(const GradedActivity &activity)
 {
    cout << setprecision(1) << fixed;
    cout << "The activity's numeric score is "
-        << activity.getScore() << endl;
+        << activity.getScore() << endl; //71
    cout << "The activity's letter grade is "
-        << activity.getLetterGrade() << endl;
+        << activity.getLetterGrade() << endl; //P //virtual call derived class ovverride function
 } 

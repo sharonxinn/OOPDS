@@ -18,9 +18,9 @@ int main()
 
    // Display the grade data for both objects.
    cout << "Test 1:\n";
-   displayGrade(test1);    // GradedActivity object
+   displayGrade(test1);    // GradedActivity object //88.0; B  //call GradedActivity base class function
    cout << "\nTest 2:\n";
-   displayGrade(test2);    // PassFailExam object
+   displayGrade(test2);    // PassFailExam object  //75.0 P     //call PassFailExam derived class ovverride fucntion
    return 0;
 }
 
@@ -33,7 +33,7 @@ void displayGrade(const GradedActivity &activity)
 {
    cout << setprecision(1) << fixed;
    cout << "The activity's numeric score is "
-        << activity.getScore() << endl;
-   cout << "The activity's letter grade is "
-        << activity.getLetterGrade() << endl;
+        << activity.getScore() << endl; 
+   cout << "The activity's letter grade is " 
+        << activity.getLetterGrade() << endl; 
 } 
