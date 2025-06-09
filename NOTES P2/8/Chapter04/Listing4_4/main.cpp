@@ -91,7 +91,7 @@ int main()
  
  Enter 'A' to test the array-based implementation
  or 'L' to test the link-based implementation: L
- Testing the Link-Based Bag:
+ Testing the Link-Based Bag:  //Link Based is special than array based
  The initial bag is empty.
  isEmpty: returns 1; should be 1 (true)
  Add 6 items to the bag:

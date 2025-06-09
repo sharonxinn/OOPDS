@@ -67,6 +67,6 @@ int main()
  
  isEmpty: returns 0; should be 0 (false)
  getCurrentSize: returns 6; should be 6
- Try to add another entry: add("extra") returns 0
+ Try to add another entry: add("extra") returns 0 (false)
  All done!
 */

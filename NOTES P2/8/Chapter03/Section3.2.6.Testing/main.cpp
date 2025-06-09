@@ -94,7 +94,7 @@ int main()
  
  isEmpty: returns 0; should be 0 (false)
  getCurrentSize: returns 6; should be 6
- Try to add another entry: add("extra") returns 0
+ Try to add another entry: add("extra") returns 0 (false)
  contains("three"): returns 1; should be 1 (true)
  contains("ten"): returns 0; should be 0 (false)
  getFrequencyOf("one"): returns 2 should be 2

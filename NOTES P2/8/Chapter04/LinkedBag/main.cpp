@@ -107,14 +107,15 @@ int main()
  Adding three
  Adding four
  Adding five
+
  The bag contains 6 items:
- five four three two one zero
+ five four three two one zero  //linked list add, old value push behind
  
  Copy of bag: The bag contains 6 items:
  five four three two one zero
  
  The copied bag: The bag contains 6 items:
- five four three two one zero
+ five four three two one zero  
  
  Testing the Link-Based Bag:
  isEmpty: returns 1; should be 1 (true)
@@ -123,11 +124,11 @@ int main()
  
  Add 6 items to the bag:
  The bag contains 6 items:
- one five four three two one
+ one five four three two one //linked list add, old value push behind
  
  isEmpty: returns 0; should be 0 (false)
  getCurrentSize: returns 6; should be 6
- Try to add another entry: add("extra") returns 1
+ Try to add another entry: add("extra") returns 1 //LinkedList
  contains("three"): returns 1; should be 1 (true)
  contains("ten"): returns 0; should be 0 (false)
  getFrequencyOf("one"): returns 2 should be 2
