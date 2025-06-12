@@ -47,3 +47,5 @@ double divide(int numerator, int denominator)
 
    return static_cast<double>(numerator) / denominator;
 }
+//ERROR: Cannot divide by zero.
+//End of the program.

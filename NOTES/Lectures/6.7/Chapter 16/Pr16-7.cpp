@@ -23,3 +23,5 @@ int main()
         << square(userDouble) << endl;
    return 0;
 }
+
+//4 and 0.1

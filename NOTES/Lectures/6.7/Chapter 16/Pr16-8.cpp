@@ -20,9 +20,9 @@ int main()
 
    // Get and swapVars two chars
    cout << "Enter two characters: ";
-   cin >> firstChar >> secondChar;
-   swapVars(firstChar, secondChar);
-   cout << firstChar << " " << secondChar << endl;
+   cin >> firstChar >> secondChar;  //1 2
+   swapVars(firstChar, secondChar);  
+   cout << firstChar << " " << secondChar << endl;  //2 1
 
    // Get and swapVars two ints
    cout << "Enter two integers: ";

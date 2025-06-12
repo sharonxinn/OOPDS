@@ -20,10 +20,10 @@ int main()
    double d = 0.0;
       
    cout << "Comparing an int and a double, the largest\n"
-        << "of the two is " << largest(i, d) << " bytes.\n";
+        << "of the two is " << largest(i, d) << " bytes.\n"; //8
 
    cout << "Comparing an char and a float, the largest\n"
-        << "of the two is " << largest(c, f) << " bytes.\n";
+        << "of the two is " << largest(c, f) << " bytes.\n"; //4
 
    return 0;
 }

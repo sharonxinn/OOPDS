@@ -19,9 +19,9 @@ int main()
    double num1, num2, num3;
 
    // Get two values and display their sum.
-   cout << "Enter two values: ";
-   cin >> num1 >> num2;
-   cout << "Their sum is " << sum(num1, num2) << endl;
+   cout << "Enter two values: "; 
+   cin >> num1 >> num2; //2 3
+   cout << "Their sum is " << sum(num1, num2) << endl; //5
    
    // Get three values and display their sum.
    cout << "Enter three values: ";
